@@ -19,3 +19,12 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+*.xml
+.DS_Store
+.DS_Store
+.DS_Store
+.idea/workspace.xml
+java_start.iml
+out/production/java_start/ru/stqa/pft/sandbox/MyFirstProgram.class
+sandbox/.DS_Store
+sandbox/src/.DS_Store
