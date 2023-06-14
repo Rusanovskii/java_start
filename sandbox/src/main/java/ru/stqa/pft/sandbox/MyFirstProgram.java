@@ -1,14 +1,15 @@
 package ru.stqa.pft.sandbox;
 
 
+import org.testng.annotations.Test;
+
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-
         Point p1 = new Point(5.0,8.0);
         Point p2 = new Point(8.0,5.0);
 
-        System.out.println("Вычисляем расстояния между p1:" + p1.x + "," + p1.y + " и p2:" + p2.x + "," + p2.y + " = " + p1.distance(p1, p2));
+        System.out.println("Вычисляем расстояния между p1:" + p1.x + "," + p1.y + " и p2:" + p2.x + "," + p2.y + " = " + p1.distance(p2));
 
         /*
         // Передаем значение для переменной any указывая его в парпметре функции
